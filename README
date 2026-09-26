@@ -1,0 +1,20 @@
+# PCMCI-Based Feature-Selection Study Across 250 Grid Cells in Morocco
+
+Code and results accompanying the paper "A PCMCI-Based Feature-Selection Study Across 250 Grid Cells in Morocco" (submitted to Solar Energy).
+
+## Contents
+
+- `code/` — the full analysis pipeline, 11 scripts covering data preparation and causal discovery (PCMCI), model fitting, selector comparison, threshold sweeps, seasonal/cloud-regime strata analysis, a no-cloud ablation, rolling-origin cross-validation, assumption checks (stationarity, collinearity), a nonlinear conditional-independence check (CMIknn), and spatiotemporal block bootstrap uncertainty estimates.
+- `results/` — derived CSV outputs from each pipeline stage (selection comparisons, threshold sweep tables, strata skill/MBE, ablation tables, rolling-origin fold results, stationarity/collinearity diagnostics, CMIknn test results, spatiotemporal bootstrap output, and daily predictions).
+
+## Requirements
+
+Python 3.x with `numpy`, `pandas`, `scikit-learn`, and `tigramite`.
+
+## Citation
+
+If you use this code or data, please cite the paper (full citation to be added upon publication).
+
+## Contact
+
+Najoua Lakhdar, ENSAM Meknès, Université Moulay Ismail
